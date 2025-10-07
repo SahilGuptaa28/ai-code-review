@@ -1,25 +1,42 @@
-AI Code Review
+🤖 AI Code Review
 
-AI Code Review is an intelligent code analysis tool that leverages artificial intelligence to automatically review, suggest improvements, and detect potential issues in your code. Built using React, Node.js, Express, and integrated with the Gemini API, this project brings the power of AI directly into your development workflow.
+AI Code Review is an intelligent code analysis tool that leverages AI to automatically review, suggest improvements, and detect potential issues in your code. Built with React, Node.js, Express, and integrated with the Gemini API, it brings AI-powered coding assistance directly into your workflow.
 
-With AI Code Review, developers can get real-time code suggestions, detect potential bugs and errors before running the code, follow best coding practices effortlessly, and save time on manual code reviews. This project is perfect for developers, teams, and learners who want smart code assistance without leaving their editor.
+🚀 Tech Stack
 
-Key Features
+Frontend:
 
-AI-Powered Code Analysis – Automatic code review using Gemini API
+React.js
 
-Frontend Editor – Real-time code input with suggestions
+CodeMirror (code editor)
 
-Backend Server – Handles API requests and responses
+Tailwind CSS (optional styling)
 
-Lightweight & Fast – Simple, dependency-based architecture without heavy databases
+Backend:
 
-Extensible – Easily add new AI features or code checks
+Node.js
 
-Tech Stack
+Express.js
 
-Frontend: React.js, CodeMirror (code editor), TailwindCSS (optional styling)
+Axios
 
-Backend: Node.js, Express.js, Axios
+AI Integration:
 
-AI Integration: Gemini API for code suggestions and review
+Gemini API for code suggestions and review
+
+🔐 Features
+🧾 Core Functionality
+
+📝 Real-Time Code Suggestions — Get AI-powered recommendations as you type
+
+🐞 Error Detection — Identify potential bugs and issues automatically
+
+📏 Best Practices — Follow coding standards effortlessly
+
+⚙️ Additional Features
+
+Lightweight & Fast — No heavy database required
+
+Extensible — Easily add new AI checks or features
+
+Clean & Interactive Editor UI
