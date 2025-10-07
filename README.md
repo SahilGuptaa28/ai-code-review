@@ -1,48 +1,35 @@
 AI Code Review
 
-An AI-powered code review tool built with React, Node, Express, and Gemini API. Automatically detects bugs, suggests improvements, and enforces best coding practices.
+AI Code Review is an intelligent code analysis tool that leverages artificial intelligence to automatically review, suggest improvements, and detect potential issues in your code. Built using React, Node.js, Express, and integrated with the Gemini API, this project brings the power of AI directly into your development workflow.
 
-Features
+With AI Code Review, developers can:
 
-AI-powered code analysis
+Get real-time code suggestions and improvements
 
-Real-time code quality suggestions
+Detect potential bugs and errors before running the code
 
-Frontend in React.js, backend in Node & Express
+Follow best coding practices effortlessly
 
-Gemini API integration for advanced AI insights
+Save time on manual code reviews
+
+This project is perfect for developers, teams, and learners who want smart code assistance without leaving their editor.
+
+Key Features
+
+AI-Powered Code Analysis – Automatic code review using Gemini API
+
+Frontend Editor – Real-time code input with suggestions
+
+Backend Server – Handles API requests and responses
+
+Lightweight & Fast – Simple, dependency-based architecture without heavy databases
+
+Extensible – Easily add new AI features or code checks
 
 Tech Stack
 
-Frontend: React.js, HTML, CSS, JavaScript
+Frontend: React.js, CodeMirror (code editor), TailwindCSS (optional styling)
 
-Backend: Node.js, Express.js
+Backend: Node.js, Express.js, Axios
 
-AI: Gemini API
-
-Packages / Dependencies
-Frontend (package.json)
-
-react – UI library
-
-react-dom – React rendering
-
-axios – For API requests to backend
-
-codemirror – Code editor component
-
-react-codemirror2 – React wrapper for CodeMirror
-
-tailwindcss – Styling (optional)
-
-vite – Frontend bundler / dev server
-
-Backend (package.json)
-
-express – Web framework
-
-cors – Handle cross-origin requests
-
-dotenv – Environment variable management
-
-axios – To call Gemini API from backend
+AI Integration: Gemini API for code suggestions and review
