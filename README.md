@@ -2,17 +2,7 @@ AI Code Review
 
 AI Code Review is an intelligent code analysis tool that leverages artificial intelligence to automatically review, suggest improvements, and detect potential issues in your code. Built using React, Node.js, Express, and integrated with the Gemini API, this project brings the power of AI directly into your development workflow.
 
-With AI Code Review, developers can:
-
-Get real-time code suggestions and improvements
-
-Detect potential bugs and errors before running the code
-
-Follow best coding practices effortlessly
-
-Save time on manual code reviews
-
-This project is perfect for developers, teams, and learners who want smart code assistance without leaving their editor.
+With AI Code Review, developers can get real-time code suggestions, detect potential bugs and errors before running the code, follow best coding practices effortlessly, and save time on manual code reviews. This project is perfect for developers, teams, and learners who want smart code assistance without leaving their editor.
 
 Key Features
 
