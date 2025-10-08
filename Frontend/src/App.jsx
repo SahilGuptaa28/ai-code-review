@@ -10,13 +10,14 @@ function App() {
   const [review, setReview] = useState("");
   const [loading, setLoading] = useState(false);
 
-  
+  // ✅ Use Vercel environment variable
+  const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 
   async function reviewCode() {
     setLoading(true);
     setReview("");
     try {
-      const response = await axios.post("https://ai-code-review-0838.onrender.com/ai/get-review", { code });
+      const response = await axios.post(`${BACKEND_URL}/ai/get-review`, { code });
       setReview(response.data);
     } catch (err) {
       console.error(err);
