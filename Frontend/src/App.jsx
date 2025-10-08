@@ -11,7 +11,8 @@ function App() {
   const [loading, setLoading] = useState(false);
 
   // ✅ Use Vercel environment variable
-  const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
+  const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "https://ai-code-review-0838.onrender.com";
+
 
   async function reviewCode() {
     setLoading(true);
