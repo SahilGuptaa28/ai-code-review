@@ -10,14 +10,13 @@ function App() {
   const [review, setReview] = useState("");
   const [loading, setLoading] = useState(false);
 
-  // Use your Render backend URL here
-  const BACKEND_URL = "https://ai-code-review-0838.onrender.com";
+  
 
   async function reviewCode() {
     setLoading(true);
     setReview("");
     try {
-      const response = await axios.post(`${BACKEND_URL}/ai/get-review`, { code });
+      const response = await axios.post("https://ai-code-review-0838.onrender.com/ai/get-review", { code });
       setReview(response.data);
     } catch (err) {
       console.error(err);
