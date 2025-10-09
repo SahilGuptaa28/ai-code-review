@@ -1,16 +1,25 @@
 const express = require('express');
-const aiRoutes = require('./ai.routes')
-const cors = require('cors')
+const aiRoutes = require('./ai.routes');
+const cors = require('cors');
 
-const app =express();
+const app = express();
 
-app.use(express.json( ))
-app.use(cors())
+app.use(express.json());
 
-app.get('/',(req,res)=>{
-res.send("Hello World");
-})
+// ✅ Correct CORS setup
+app.use(cors({
+  origin: "https://ai-code-review-pearl.vercel.app",  // frontend domain
+  methods: ["GET", "POST", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization"],
+}));
 
-app.use('/ai',aiRoutes)
+// ✅ Important: handle preflight requests
+app.options("*", cors());
+
+app.get("/", (req, res) => {
+  res.send("Hello World");
+});
+
+app.use("/ai", aiRoutes);
 
 module.exports = app;
