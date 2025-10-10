@@ -2,6 +2,8 @@
 
 **AI Code Review** is an intelligent code analysis tool that leverages **AI** to automatically review, suggest improvements, and detect potential issues in your code. Built with **React**, **Node.js**, **Express**, and integrated with the **Gemini API**, it brings AI-powered coding assistance directly into your workflow.
 
+[🚀 Live Demo](https://ai-code-review-pearl.vercel.app/)  
+
 ---
 
 ## 🚀 Tech Stack
