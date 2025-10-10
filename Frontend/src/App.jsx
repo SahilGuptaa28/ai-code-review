@@ -65,8 +65,8 @@ const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "https://ai-code-review-
   <div className="flex justify-end mt-4">
     <button
       onClick={reviewCode}
-      className={`px-5 sm:px-6 py-2 rounded-lg shadow-lg font-medium transition-colors
-        ${loading ? "bg-gray-500 cursor-not-allowed" : "bg-blue-600 hover:bg-blue-700"}`}
+      className={`px-5 sm:px-6 py-2 rounded-lg shadow-lg font-medium transition-colors 
+        ${loading ? "bg-gray-500 cursor-not-allowed" : "bg-blue-600 hover:bg-blue-700 hover:cursor-pointer"}`}
       disabled={loading}
     >
       {loading ? "Analyzing..." : "Review Code"}
