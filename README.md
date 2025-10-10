@@ -30,6 +30,7 @@
 * **📝 Real-Time Code Suggestions:** Get AI-powered recommendations as you type to improve code quality instantly.
 * **🐞 Error Detection:** Automatically identify and flag potential bugs, security vulnerabilities, and logic issues.
 * **📏 Best Practices:** Ensure your code adheres to modern coding standards and architectural patterns effortlessly.
+* **🌐 Multi-Language Support:** Analyze and review **multiple programming languages**, making it versatile for different projects.
 
 ### ⚙️ Additional Features
 
